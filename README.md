@@ -1,23 +1,27 @@
-# binance-import
+# binance-import for Gekko
 A tool for importing binance exchange information to Gekko, an open source crypto trading bot.
+
+This is a self-project, I mainly build it for personal use.
 
 ## Gekko
 For details about Gekko please visit [gekko repo](https://github.com/askmike/gekko). Gekko is not maintained anymore, *use it at your own risk*.
 
 ## Install
-copy this project to your machine
+You need to have Python on you machine.
+
+1. copy this project to your machine by running `git clone`
 
 ```git clone https://github.com/i01er/binance-import.git```
 
-run binance-update.py
+2. run binance-update.py
 
 ```python binance-update.py```
 
-copy the output file `binance-markets.json` to replace the original one at `gekko/exchange/wrappers/`
+3. copy the output file `binance-markets.json` to replace the original one at `gekko/exchange/wrappers/`
 
-Or you can directly run this script at `gekko/exchange/wrappers/`
+4. Or you can directly run this script at `gekko/exchange/wrappers/`
 
-Done
+5. Done
 
 ### *--Use it at your own risk!--*
 
